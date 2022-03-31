@@ -8,3 +8,13 @@
     width: 70px;
 }
 
+.ms_jumbotron {
+    background-image: url(../img/jumbo-bg.png);
+    background-size: cover;
+}
+.ms_container {
+    height:calc(100vh - 95px) ;
+    width: 30rem;
+    display: flex;
+    align-items: flex-end;
+}
