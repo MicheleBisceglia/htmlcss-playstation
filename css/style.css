@@ -1,21 +1,30 @@
-.nav-top {
-    height: 25px;
-    background-color: black;
+.nav-top {   
+}
+li {
+    list-style: none;
 }
 
+.nav-top {  
+    display: flex; 
+    justify-content: flex-end;
+}
 .sony_logo {
-    height: 70px;
-    width: 70px;
+    height: 30px;
+    width: 70px;   
+    margin-right: 1rem;
 }
 
-.ms_jumbotron {
+
+
+
+/*.ms-jumbotron-padd {
     padding-top: 200px;
     padding-bottom: 70px;
 }
 
-.ms_container {
+.ms_jumbotron {
     background-image: url(../img/jumbo-bg.png);
     background-size: cover;
     background-repeat: no-repeat;
-    margin-top: 95px;   
+    margin-top: 125px;
 }
