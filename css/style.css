@@ -48,6 +48,11 @@ main {
 
 @media all and (max-width:767px) {
     .ms_bg-s6{
-        background-image: url();
+        background-image: none;}
     
+}
+
+
+.ms_bg-s8 {
+    background-color: #17256a;
 }
