@@ -34,4 +34,20 @@ main {
     background-position: center;
 }
 
+.ms_section-6 {
+    
+}
+.ms_bg-s6{
+    background-color: #bebcbb ;
+    background-image: url(../img/ps-plus-april-monthly-games-featured-image-block.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    
+} 
 
+@media all and (max-width:767px) {
+    .ms_bg-s6{
+        background-image: url();
+    
+}
