@@ -1,5 +1,4 @@
-.nav-top {   
-}
+
 li {
     list-style: none;
 }
@@ -14,17 +13,23 @@ li {
     margin-right: 1rem;
 }
 
-
-
-
-/*.ms-jumbotron-padd {
-    padding-top: 200px;
-    padding-bottom: 70px;
+main {
+    padding-top: 90px;
 }
-
 .ms_jumbotron {
     background-image: url(../img/jumbo-bg.png);
-    background-size: cover;
+    color: white;
+    padding-top: 450px;
+    padding-bottom: 30px;
     background-repeat: no-repeat;
-    margin-top: 125px;
+    background-position: center;
 }
+
+.ms_banner {
+    max-width: 60%;
+}
+
+.ms_section-2 {
+    text-align: center;
+}
+
