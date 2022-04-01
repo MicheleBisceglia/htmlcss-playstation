@@ -28,6 +28,10 @@ main {
     max-width: 60%;
 }
 
-
+.ms_section-1 {
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
 
 
