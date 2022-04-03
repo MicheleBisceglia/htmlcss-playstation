@@ -1,58 +1,53 @@
+body,
+header {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.bg_size {
+    background-size: ;
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;
+}
+
 li {
     list-style: none;
 }
-
+/*Header*/
+    /*Navbar*/
 .nav-top {  
     display: flex; 
     justify-content: flex-end;
 }
+
 .sony_logo {
     height: 30px;
     width: 70px;   
     margin-right: 1rem;
 }
+    /* /Header*/
+/* /Navbar*/
 
+/*main*/
 main {
-    padding-top: 90px;
+   margin-top: 10%; 
 }
+    /*Header*/
 .ms_jumbotron {
     background-image: url(../img/jumbo-bg.png);
-    color: white;
-    padding-top: 450px;
-    padding-bottom: 30px;
-    background-repeat: no-repeat;
-    background-position: center;
+    padding-top: 150px;
+    padding-bottom: 50px;
 }
 
-.ms_banner {
-    max-width: 60%;
-}
-
-.ms_section-1 {
+.ms_section-3 {
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
 }
 
-.ms_section-6 {
-    
-}
-.ms_bg-s6{
-    background-color: #bebcbb ;
-    background-image: url(../img/ps-plus-april-monthly-games-featured-image-block.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
-    
-} 
-
-@media all and (max-width:767px) {
-    .ms_bg-s6{
-        background-image: none;}
-    
-}
-
-
-.ms_bg-s8 {
+.ms_bg-darkblue {
     background-color: #17256a;
 }
+/*main*/
