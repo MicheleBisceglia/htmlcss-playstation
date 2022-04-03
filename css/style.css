@@ -1,3 +1,7 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 body,
 header {
     max-width: 1400px;
@@ -17,6 +21,7 @@ header {
 li {
     list-style: none;
 }
+
 /*Header*/
     /*Navbar*/
 .nav-top {  
