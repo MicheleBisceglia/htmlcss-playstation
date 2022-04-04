@@ -2,14 +2,13 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-body,
-header {
+section {
     max-width: 1400px;
     margin: 0 auto;
 }
 
 .bg_size {
-    background-size: ;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     -webkit-background-size: 100% 100%;
@@ -41,18 +40,52 @@ li {
 main {
    margin-top: 10%; 
 }
-    /*Header*/
+    /*section 2*/
+.ms_s2-active {
+    height: 3px;
+    width: 100%;
+    background-color: #2f8bd7;
+}
+
+.ps-card .ms_s2-active{
+    display: none;
+}
+
+.ps-card {
+    opacity: 75%;
+}
+.ps-card:hover {
+    opacity: 100%;
+}
+.ps-card:hover .ms_s2-active {
+    display:block;
+}
+    /*/ section 2*/
+
+    /*jumbotron*/
 .ms_jumbotron {
     background-image: url(../img/jumbo-bg.png);
     padding-top: 150px;
     padding-bottom: 50px;
 }
 
+.jumbotron_img:hover{
+    position: relative;
+    bottom: 20px;
+    right: 10px;
+ }
+ 
+    /* /jumbotron*/
+
 .ms_section-3 {
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
 }
 
-.ms_bg-darkblue {
+.ms_bg-section-8 {
     background-color: #17256a;
 }
 /*main*/
+
+
+
+
