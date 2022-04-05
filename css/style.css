@@ -89,3 +89,12 @@ main {
 
 
 
+.btn_effect:hover {
+    box-shadow: inset 0px 0px 0px 2px white;
+    border: solid 2px ;
+}
+
+.btn_effect_white:hover {
+    box-shadow: inset 0px 0px 0px 2px black;
+    border: solid 2px ;
+}
